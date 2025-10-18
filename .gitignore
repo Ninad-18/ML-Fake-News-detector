@@ -1,98 +1,17 @@
-# ============================================
-# Python general ignores
-# ============================================
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-*.egg
-*.egg-info/
-.eggs/
-dist/
-build/
-pip-wheel-metadata/
+# Ignore everything in data except dataset.csv
+data/*
+!data/dataset.csv
 
-# ============================================
-# Virtual environments
-# ============================================
+# Ignore models
+models/
+
+# Keep reports
+!reports/
+
+# Usual ignores
 venv/
-.env/
-.env.bak/
-.venv/
-ENV/
-env/
-
-# ============================================
-# Jupyter and notebooks
-# ============================================
-.ipynb_checkpoints/
-*.ipynb_checkpoints
-*.ipynb_save
-.DS_Store
-
-# ============================================
-# Data files
-# ============================================
-data/raw/
-data/*.zip
-data/*.tar
-data/*.tar.gz
-data/*.7z
-data/*.rar
-*.csv
-!data/dataset.csv  # keep your main processed dataset
-
-# ============================================
-# Model artifacts
-# ============================================
-models/*.pkl
-models/*.joblib
-models/*.sav
-models/*.h5
-models/*.pt
-models/*.onnx
-models/*.csv
-
-# ============================================
-# Reports and plots
-# ============================================
-reports/*.png
-reports/*.json
-reports/*.csv
-
-# ============================================
-# Streamlit and cache
-# ============================================
-.streamlit/
-.streamlit_cache/
-.cache/
-__cache__/
+__pycache__/
+*.pkl
+*.joblib
 *.log
-
-# ============================================
-# System / IDE files
-# ============================================
-.vscode/
-.idea/
-*.swp
-*.swo
-Thumbs.db
-Desktop.ini
-
-# ============================================
-# OS generated files
-# ============================================
 .DS_Store
-*.tmp
-*.bak
-*.old
-*.orig
-
-# ============================================
-# Other project-specific
-# ============================================
-*.lock
-*.sqlite3
-*.db
-*.pdb
-*.ckpt
