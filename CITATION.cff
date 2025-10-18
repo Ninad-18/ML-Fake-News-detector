@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "Fake News Classifier - ML Project"
+message: "If you use this repository, please cite it as below."
+type: software
+authors:
+  - given-names: "Ninad Patil"
+    affiliation: "Information Technology Department"
+version: "1.0.0"
+license: "MIT"
+repository-code: "https://github.com/Ninad-18/ML-Fake-News-detector"
+keywords:
+  - "machine learning"
+  - "fake news detection"
+  - "natural language processing"
+  - "text classification"
+  - "python"
+date-released: "2025-10-18"
+abstract: |
+  An advanced machine learning project for fake news detection using 
+  linguistic features, sentiment analysis, and multiple classification 
+  algorithms including Gradient Boosting, Random Forest, and Logistic Regression.
+  The model achieves 72.3% accuracy with robust cross-validation and explainability tools.
