@@ -47,7 +47,7 @@ This project implements a sophisticated fake news detection system using multipl
 - Class balancing for imbalanced dataset
 - Comprehensive metrics reporting
 
-## 📁 Project Structure
+## 📁 Basic Project Structure
 
 ```
 ML-Fake-News-detector/
