@@ -19,4 +19,4 @@ abstract: |
   An advanced machine learning project for fake news detection using 
   linguistic features, sentiment analysis, and multiple classification 
   algorithms including Gradient Boosting, Random Forest, and Logistic Regression.
-  The model achieves 72.3% accuracy with robust cross-validation and explainability tools.
+  
