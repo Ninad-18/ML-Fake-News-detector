@@ -213,14 +213,6 @@ The improved model shows significant enhancements:
 
 This project is open source and available under the MIT License.
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
-
-## 📞 Contact
-
-For questions or suggestions, please open an issue in the repository.
-
 ---
 
 **Note**: This model is for educational and research purposes. Always verify important news through multiple reliable sources.
